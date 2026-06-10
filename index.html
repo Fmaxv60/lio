@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="icon.png">
     <title>Les questions de Lio</title>
+    <meta name="description" content="Né grâce à notre cher lionel, découvrez des centaines de questions amusantes, profondes et originales pour animer vos soirées entre amis, en couple ou en famille.">
+    <link rel="canonical" href="https://lio.metrow.fr/">
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"WebSite",
+        "name":"Les Questions de Lio",
+        "url":"https://lio.metrow.fr",
+        "description":"Générateur de questions pour soirées et discussions."
+    }
+    </script>
     <style>
         :root {
             --bg-dark: #0f172a;
@@ -160,6 +171,10 @@
             transform: translateY(0);
         }
 
+        .hidden {
+            display: none;
+        }
+
         /* Couleurs dynamiques selon les catégories */
         .cat-chill { background-color: rgba(59, 130, 246, 0.2); color: #93c5fd; border: 1px solid var(--cat-chill); }
         .cat-ego { background-color: rgba(236, 72, 153, 0.2); color: #fbcfe8; border: 1px solid var(--cat-ego); }
@@ -190,18 +205,36 @@
 
         <!-- Zone d'affichage simplifiée (sans flip 3D) -->
         <div class="display-box" id="displayBox">
-            <span class="badge" id="badge" style="display: none;">Catégorie</span>
+            <span class="badge hidden" id="badge">Catégorie</span>
             <div class="question-text" id="questionText">Cliquez sur le bouton ci-dessous pour piocher une question !</div>
             <div class="vibe-text" id="vibeText"></div>
         </div>
 
         <!-- Bouton d'action -->
         <button class="action-btn" onclick="drawQuestion()">Question Suivante ✨</button>
+
+        <section class="seo-content">
+            <h2>Questions pour toutes les occasions</h2>
+
+            <p>
+                Les Questions de Lio est un générateur gratuit de questions
+                pour animer vos soirées, vos rencontres entre amis et vos
+                discussions de couple.
+            </p>
+
+            <p>
+                Retrouvez des questions drôles, profondes, romantiques,
+                nostalgiques et originales afin de mieux connaître les
+                personnes qui vous entourent.
+            </p>
+        </section>
     </div>
 
     <script>
         let questions = [];
         let currentCategory = 'all';
+
+        badge.classList.remove("hidden");
 
         // Chargement du fichier JSON
         fetch('questions.json')
