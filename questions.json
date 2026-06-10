@@ -1,0 +1,723 @@
+[
+    {
+        "id": 1,
+        "texte": "Taches ménagères la plus chiante ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 2,
+        "texte": "C’est quelle année pour toi le prime de l’humanité ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 3,
+        "texte": "Dans un cambriolage ça serait quoi ton rôle ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 4,
+        "texte": "C’est quoi ton style vestimentaire ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 5,
+        "texte": "Ta meilleure experience au ciné ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 6,
+        "texte": "Top 3 destination de rêve ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 7,
+        "texte": "Quel plat feels like home ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 8,
+        "texte": "Quel est le mot/forme que tu écris quand tu veux tester un stylo ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 9,
+        "texte": "C’est qui la personne la plus connu que vous avez vu ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 10,
+        "texte": "Votre premier jeu vidéo ? / Meilleure expérience vidéoludique ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 11,
+        "texte": "Quel métier ne ferais tu pas, même si on te proposait un milliard ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 12,
+        "texte": "Le meilleur film/roman/anime/manga selon vous ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 13,
+        "texte": "Si tu devais manger un plat toute ta vie, ça serait quoi ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 14,
+        "texte": "T’aimerais avoir la voix de quel chanteur ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 15,
+        "texte": "Si tu ne pouvais écouter qu’un style de musique lequel choisirais-tu ? Et quelle artiste aussi ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 16,
+        "texte": "Tu crois en l’astrologie ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 17,
+        "texte": "Tu penses etre timide ou non ? Pourquoi tu penses etre timide/pas timide ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 18,
+        "texte": "Tu penses quoi de ton propre visage/corps ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 19,
+        "texte": "Tu sais te battre ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 20,
+        "texte": "Est ce que t’as la FOMO ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 21,
+        "texte": "Ton red flag / ton green flag ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 22,
+        "texte": "Qu’est ce que vous aimeriez changer chez vous ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 23,
+        "texte": "Êtes vous plutôt un yapper ou un listener? (parle beaucoup ou écoute beaucoup)",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 24,
+        "texte": "Votre MBTI ? Et faites le test en live si vous n'avez pas la réponse",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 25,
+        "texte": "Es tu plutôt solitaire ou as tu besoin des autres pour fonctionner ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 26,
+        "texte": "Si tu pouvais changer something chez toi grâce à la chirurgie esthétique, que changerais-tu ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 27,
+        "texte": "Tes surnoms ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 28,
+        "texte": "Ta meilleure qualité / ton pire défaut ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 29,
+        "texte": "Ton plus gros complexe / ce que tu préfères physiquement chez toi ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 30,
+        "texte": "Imaginons que tu sois pas dans ton corps quel conseil te donnerais-tu ? (Si possible de manière générale et ensuite précise)",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 31,
+        "texte": "Est ce que vous avez un/une modèle ou une personne que vous essayez de devenir ? (Fictif ou non)",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 32,
+        "texte": "Plus gros mytho ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 33,
+        "texte": "T’es exigeant avec les autres ? Avec toi ? (En général ou dans le domaine qui te passionne le plus)",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 34,
+        "texte": "C’est quand la dernière fois que tu as affronté une peur ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 35,
+        "texte": "Comment tu voudrais qu’on se souvienne de toi ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 36,
+        "texte": "Plus grande douleur de ta vie ? (Physique et/ou mental)",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 37,
+        "texte": "Est ce que vous avez des sujets que vous n’avez jamais raconté à personne en tête ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 38,
+        "texte": "C’est qui ton plus gros accident dans ta vie ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 39,
+        "texte": "La chose la plus méchante/gentille qu’on t’ai dit ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 40,
+        "texte": "C’est quand la dernière fois que tu t’es énervé en public ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 41,
+        "texte": "Votre plus grosse déception ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 42,
+        "texte": "As tu déjà réussi à vaincre une phobie ? Si oui comment ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 43,
+        "texte": "Quelle chose veux tu absolument faire avant de mourir ? (ou top 3 bucket list)",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 44,
+        "texte": "As tu déjà vécu des situations qui auraient pu être mortelles ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 45,
+        "texte": "C'est quoi la claque de votre vie ? Un truc qui vous a soit fait changer votre personnalité, soit fait réaliser beaucoup de choses",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 46,
+        "texte": "Si vous viviez une seconde fois, quelle est la première chose que vous changeriez dans votre vie ? (Changement mental ou de comportement)",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 47,
+        "texte": "C’est quand la dernière fois que t’as pleuré et pourquoi ? (A éviter avec les dépressifs)",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 48,
+        "texte": "Qui est la personne que tu respectes le plus au monde et pourquoi ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 49,
+        "texte": "T’as acheté quoi avec ton premier salaire ? Et le premier achat d’adulte ? / chose la plus cher que t’as acheté",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 50,
+        "texte": "Ton plus grand RÊVE ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 51,
+        "texte": "Derniere fois que t’as embrassé qqn ? Qui ?",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 52,
+        "texte": "C’est quand la premiere fois que tu t’es branlé ?/ derniere fois ?",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 53,
+        "texte": "Deja fantasme sur 1 prof ?",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 54,
+        "texte": "Endroit le plus louffoque ou t’as fais l’amour ?",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 55,
+        "texte": "Taille idéale chez un homme ou une femme ?",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 56,
+        "texte": "Pire expérience sexuelle ?",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 57,
+        "texte": "A partir de quelle âge tu as commencé à avoir des relations + que amicales avec des gens ? (Flirt etc…)",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 58,
+        "texte": "Vous vous voyez en couple ?",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 59,
+        "texte": "C’est qui ta celebrity crush ?",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 60,
+        "texte": "Est ce que vous croyez en l'amour véritable ? Si oui/non pourquoi ?",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 61,
+        "texte": "Votre score à un test de pureté ? (de préférence à réaliser en live)",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 62,
+        "texte": "Qu’est ce que ton ex relation te reprochait le plus ?",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 63,
+        "texte": "Vos darons c’est des plus gros pineurs que vous (Attention à qui je la dit)",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 64,
+        "texte": "C’est qui la personne la plus méchante/gentil que vous connaissez ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 65,
+        "texte": "C’est quel événement qui t’as rapproché de d’un ami proche que tu as ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 66,
+        "texte": "Est ce que t’es plutôt compétitif ou chill ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 67,
+        "texte": "Vous êtes jaloux ? (En %)",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 68,
+        "texte": "C’est quoi l’action que quelqu’un fait qui peut te faire péter un câble ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 69,
+        "texte": "À quel sujet tes potes viennent-ils te voir pour obtenir un conseil ? / a quel sujet ils ne viennent pas te voir ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 70,
+        "texte": "Quelles sont les 3 qualités que tu admires le plus chez une personne ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 71,
+        "texte": "T’as deja ghosté/ deja fait ghosté ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 72,
+        "texte": "En te basant sur le look et la personnalité de cette personne à quoi ressemble ton appart/ maison selon toi",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 73,
+        "texte": "Décris qqn dans le groupe avec un mot",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 74,
+        "texte": "Qui (dans le metrow ou la pièce) admirez-vous/enviez-vous le plus? Et pourquoi ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 75,
+        "texte": "Avec quelle personne actuellement souhaiterais tu reprendre contact ? Vous êtes pas obligés de dire les noms mais vous devez au moins dire ce qu'elle représentait pour vous, et pourquoi vous ne vous parlez plus",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 76,
+        "texte": "Êtes vous plutôt du côté du manipulateur, ou du manipulé ? Si c'est déjà arrivé",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 77,
+        "texte": "Qui (dans la pièce ou le metrow) est le plus charismatique ? Pas dans la beauté, mais dans la confiance en soi, et dans le comportement. Vous pouvez répondre vous-mêmes",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 78,
+        "texte": "Relation fusionnelle avec tes parents ? / Plus proches de tes frères et sœurs ou parents ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 79,
+        "texte": "T’as déjà perdu une forte amitié ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 80,
+        "texte": "Question de groupe : qui t’as laissé la plus grosse 1ére impression la ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 81,
+        "texte": "Ton avis sur l’amitié homme / femme ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 82,
+        "texte": "T’etais quelle genre de bébé ?",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 83,
+        "texte": "T’avais des amoureuses/ amoureux en primaire/maternelle ?",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 84,
+        "texte": "Est-ce que t’as déjà été méchant avec des gens au collège/lycée ? (En mode bully)",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 85,
+        "texte": "T’as déjà mis des tunnels à qqn ?",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 86,
+        "texte": "Quel a été ton âge préféré pour l’instant ?",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 87,
+        "texte": "Quelles traditions d’enfances sont encore importantes à tes yeux ?",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 88,
+        "texte": "Meilleure période de ta vie ? / Pire période de ta vie ?",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 89,
+        "texte": "Est-ce que tes parents étaient plutôt laxistes ou non quand tu étais petit ?",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 90,
+        "texte": "Métier de rêve quand t’était petit ? Métier de rêve actuel ?",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 91,
+        "texte": "Un mensonge RIGOLO que tes parents te disaient quand t’était petit ?",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 92,
+        "texte": "C’est quoi ton plus gros fou rire ?",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 93,
+        "texte": "Ta plus grosse honte ?",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 94,
+        "texte": "Niveau de bonheur actuel ?",
+        "categorie_code": "notes_sur_10_et_echelles",
+        "categorie_nom": "Notes sur 10",
+        "vibe": "Auto-évaluation"
+    },
+    {
+        "id": 95,
+        "texte": "A combien tu notes ta vie sur 10 ?",
+        "categorie_code": "notes_sur_10_et_echelles",
+        "categorie_nom": "Notes sur 10",
+        "vibe": "Auto-évaluation"
+    },
+    {
+        "id": 96,
+        "texte": "T’es curieux a combien sur 10 ?",
+        "categorie_code": "notes_sur_10_et_echelles",
+        "categorie_nom": "Notes sur 10",
+        "vibe": "Auto-évaluation"
+    },
+    {
+        "id": 97,
+        "texte": "Sur une échelle de 1 à 10 à quel point tu aimes tester de nouvelles choses ?",
+        "categorie_code": "notes_sur_10_et_echelles",
+        "categorie_nom": "Notes sur 10",
+        "vibe": "Auto-évaluation"
+    },
+    {
+        "id": 98,
+        "texte": "De 1 à 10 jugez votre sens du style selon vous",
+        "categorie_code": "notes_sur_10_et_echelles",
+        "categorie_nom": "Notes sur 10",
+        "vibe": "Auto-évaluation"
+    },
+    {
+        "id": 99,
+        "texte": "De 1 à 10 jugez votre intelligence (quelque soit la forme)",
+        "categorie_code": "notes_sur_10_et_echelles",
+        "categorie_nom": "Notes sur 10",
+        "vibe": "Auto-évaluation"
+    },
+    {
+        "id": 100,
+        "texte": "De 1 à 10 à quel point es tu toxique ?",
+        "categorie_code": "notes_sur_10_et_echelles",
+        "categorie_nom": "Notes sur 10",
+        "vibe": "Auto-évaluation"
+    },
+    {
+        "id": 101,
+        "texte": "Sur 10 à combien penses tu avoir confiance en toi ?",
+        "categorie_code": "notes_sur_10_et_echelles",
+        "categorie_nom": "Notes sur 10",
+        "vibe": "Auto-évaluation"
+    },
+    {
+        "id": 102,
+        "texte": "Sur 10 à combien tu penses savoir cuisiner ?",
+        "categorie_code": "notes_sur_10_et_echelles",
+        "categorie_nom": "Notes sur 10",
+        "vibe": "Auto-évaluation"
+    },
+    {
+        "id": 103,
+        "texte": "Sur 10 à combien tu sais danser ?",
+        "categorie_code": "notes_sur_10_et_echelles",
+        "categorie_nom": "Notes sur 10",
+        "vibe": "Auto-évaluation"
+    }
+]

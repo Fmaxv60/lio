@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png">
+    <title>Les questions de Lio</title>
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #6366f1;
+            --accent-hover: #4f46e5;
+            
+            /* Catégories couleurs */
+            --cat-chill: #3b82f6;
+            --cat-ego: #ec4899;
+            --cat-profond: #8b5cf6;
+            --cat-romance: #ef4444;
+            --cat-relations: #10b981;
+            --cat-enfance: #f59e0b;
+            --cat-notes: #06b6d4;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #a78bfa, #f472b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            font-size: 1rem;
+        }
+
+        /* Filtrage */
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 30px;
+        }
+
+        .filter-btn {
+            background-color: var(--card-bg);
+            color: var(--text-main);
+            border: 2px solid transparent;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .filter-btn.active {
+            border-color: var(--accent);
+            background-color: rgba(99, 102, 241, 0.2);
+        }
+
+        /* Boîte de texte simplifiée */
+        .display-box {
+            width: 100%;
+            min-height: 220px;
+            background-color: var(--card-bg);
+            border-radius: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: transform 0.1s ease, box-shadow 0.1s ease;
+        }
+
+        .display-box.pop {
+            transform: scale(1.02);
+            box-shadow: 0 15px 30px rgba(99, 102, 241, 0.2);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 20px;
+        }
+
+        .question-text {
+            font-size: 1.5rem;
+            font-weight: 600;
+            line-height: 1.4;
+            margin-bottom: 25px;
+            word-wrap: break-word;
+            max-width: 100%;
+        }
+
+        .vibe-text {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        /* Bouton d'action */
+        .action-btn {
+            background-color: var(--accent);
+            color: white;
+            border: none;
+            padding: 16px 32px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+            transition: all 0.2s ease;
+        }
+
+        .action-btn:hover {
+            background-color: var(--accent-hover);
+            transform: translateY(-2px);
+        }
+
+        .action-btn:active {
+            transform: translateY(0);
+        }
+
+        /* Couleurs dynamiques selon les catégories */
+        .cat-chill { background-color: rgba(59, 130, 246, 0.2); color: #93c5fd; border: 1px solid var(--cat-chill); }
+        .cat-ego { background-color: rgba(236, 72, 153, 0.2); color: #fbcfe8; border: 1px solid var(--cat-ego); }
+        .cat-profond { background-color: rgba(139, 92, 246, 0.2); color: #ddd6fe; border: 1px solid var(--cat-profond); }
+        .cat-romance { background-color: rgba(239, 68, 68, 0.2); color: #fca5a5; border: 1px solid var(--cat-romance); }
+        .cat-relations { background-color: rgba(16, 185, 129, 0.2); color: #a7f3d0; border: 1px solid var(--cat-relations); }
+        .cat-enfance { background-color: rgba(245, 158, 123, 0.2); color: #fde68a; border: 1px solid var(--cat-enfance); }
+        .cat-notes { background-color: rgba(6, 182, 212, 0.2); color: #cffafe; border: 1px solid var(--cat-notes); }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Les questions de Lio</h1>
+        <p class="subtitle">Trouvez des sujets de discussion pour vos soirées</p>
+
+        <!-- Filtres par catégories -->
+        <div class="filters">
+            <button class="filter-btn active" onclick="setCategory('all')">Tout</button>
+            <button class="filter-btn" onclick="setCategory('chill_et_loisirs')">Chill</button>
+            <button class="filter-btn" onclick="setCategory('ego_et_personnalite')">Ego</button>
+            <button class="filter-btn" onclick="setCategory('profond_et_philosophique')">Profond</button>
+            <button class="filter-btn" onclick="setCategory('romance_et_sexe')">Intime 🔥</button>
+            <button class="filter-btn" onclick="setCategory('relations_et_groupe')">Relations</button>
+            <button class="filter-btn" onclick="setCategory('enfance_et_passé')">Nostalgie</button>
+            <button class="filter-btn" onclick="setCategory('notes_sur_10_et_echelles')">Notes /10</button>
+        </div>
+
+        <!-- Zone d'affichage simplifiée (sans flip 3D) -->
+        <div class="display-box" id="displayBox">
+            <span class="badge" id="badge" style="display: none;">Catégorie</span>
+            <div class="question-text" id="questionText">Cliquez sur le bouton ci-dessous pour piocher une question !</div>
+            <div class="vibe-text" id="vibeText"></div>
+        </div>
+
+        <!-- Bouton d'action -->
+        <button class="action-btn" onclick="drawQuestion()">Question Suivante ✨</button>
+    </div>
+
+    <script>
+        let questions = [];
+        let currentCategory = 'all';
+
+        // Chargement du fichier JSON
+        fetch('questions.json')
+            .then(response => response.json())
+            .then(data => {
+                questions = data;
+            })
+            .catch(err => {
+                console.error("Erreur de chargement du JSON, utilisation du backup.");
+            });
+
+        function setCategory(cat) {
+            currentCategory = cat;
+            
+            const buttons = document.querySelectorAll('.filter-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+
+        function drawQuestion() {
+            const box = document.getElementById('displayBox');
+            
+            // Filtrage
+            const filtered = currentCategory === 'all' 
+                ? questions 
+                : questions.filter(q => q.categorie_code === currentCategory);
+
+            if (filtered.length === 0) {
+                alert("Aucune question trouvée pour cette catégorie.");
+                return;
+            }
+
+            // Sélection aléatoire
+            const randomIndex = Math.floor(Math.random() * filtered.length);
+            const selectedQuestion = filtered[randomIndex];
+
+            // Changement direct du texte avec un petit effet de rebond discret (pop)
+            box.classList.add('pop');
+            
+            const badge = document.getElementById('badge');
+            const qText = document.getElementById('questionText');
+            const vText = document.getElementById('vibeText');
+
+            badge.style.display = "inline-block";
+            qText.innerText = selectedQuestion.texte;
+            badge.innerText = selectedQuestion.categorie_nom;
+            vText.innerText = "⚡ " + selectedQuestion.vibe;
+
+            // Update couleur du badge
+            badge.className = "badge";
+            badge.classList.add('cat-' + selectedQuestion.categorie_code.split('_')[0]);
+
+            // Retire l'effet de pop juste après l'animation
+            setTimeout(() => {
+                box.classList.remove('pop');
+            }, 100);
+        }
+    </script>
+</body>
+</html>
