@@ -726,5 +726,215 @@
         "categorie_code": "profond_et_philosophique",
         "categorie_nom": "Profond & Confidences",
         "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 105,
+        "texte": "Si ta vie était une série, ça serait quoi le titre de la saison actuelle ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 106,
+        "texte": "C’est quoi ton plaisir coupable musical (le truc honteux que tu écoutes en cachette) ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 107,
+        "texte": "Si tu devais supprimer une application de ton téléphone pour toujours (hors messages/appels), ça serait laquelle ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 108,
+        "texte": "Tu préfères avoir 10 minutes d’avance ou 10 minutes de retard systématiquement ?",
+        "categorie_code": "chill_et_loisirs",
+        "categorie_nom": "Chill & Loisirs",
+        "vibe": "Décontracté"
+    },
+    {
+        "id": 109,
+        "texte": "Qu'est-ce qui te fait instantanément passer pour un vieux ou une vieille ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 110,
+        "texte": "Quelle critique sur ta personnalité as-tu du mal à accepter alors que tu sais qu'elle est vraie ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 111,
+        "texte": "Tu penses que les gens ont plutôt tendance à te sous-estimer ou à te surestimer quand ils te rencontrent ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 112,
+        "texte": "C'est quoi la règle de vie non écrite que tu t'imposes au quotidien ?",
+        "categorie_code": "ego_et_personnalite",
+        "categorie_nom": "Personnalité & Ego",
+        "vibe": "Introspection"
+    },
+    {
+        "id": 113,
+        "texte": "Si tu pouvais effacer un seul événement de ton passé, le ferais-tu au risque de changer qui tu es aujourd'hui ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 114,
+        "texte": "De quoi as-tu le plus peur en vieillissant ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 115,
+        "texte": "C'est quoi le plus grand sacrifice que tu as fait pour quelqu'un d'autre ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 116,
+        "texte": "Qu'est-ce qui donne du sens à tes journées en ce moment ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 117,
+        "texte": "C'est quoi la plus grande leçon d'humilité que la vie t'a donnée ?",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
+    },
+    {
+        "id": 118,
+        "texte": "C'est quoi ton plus grand tue-l'amour (red flag ultime) au lit ou en date ?",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 119,
+        "texte": "Tu as déjà regretté d'avoir couché avec quelqu'un ? Pourquoi ?",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 120,
+        "texte": "Pour ou contre le fait de rester ami avec ses ex ? Tu y arrives toi ?",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 121,
+        "texte": "C'est quoi la chose la plus romantique (ou niaise) que tu as faite par amour ?",
+        "categorie_code": "romance_et_sexe",
+        "categorie_nom": "Romance & Psycho-Sexe",
+        "vibe": "Hot / Intime"
+    },
+    {
+        "id": 122,
+        "texte": "Qui dans cette pièce t'a le plus intimidé la première fois que tu l'as vu ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 123,
+        "texte": "Si on devait tous parier sur qui va finir en prison en premier ici, ça serait qui ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 124,
+        "texte": "Quelle est la personne du groupe à qui tu confierais tes clés d'appart ou ta carte bleue les yeux fermés ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 125,
+        "texte": "Si tu devais passer 3 mois confiné sur une île déserte avec une seule personne ici, tu choisirais qui ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 126,
+        "texte": "C'est quoi le pire bide ou moment de solitude que tu as pris en public ?",
+        "categorie_code": "relations_et_groupe",
+        "categorie_nom": "Relations & Groupe",
+        "vibe": "Interactif / Social"
+    },
+    {
+        "id": 127,
+        "texte": "C'était quoi ton jouet ou ton doudou indispensable quand tu étais gosse ?",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 128,
+        "texte": "Quelle bêtise d'enfance as-tu réussi à cacher à tes parents pendant des années (ou encore aujourd'hui) ?",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 129,
+        "texte": "Si tu pouvais retourner voir l'enfant que tu étais à 10 ans, tu lui dirais quoi en priorité ?",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 130,
+        "texte": "C'était quoi le dessin animé ou la série de ton enfance qui te bloquait devant la télé ?",
+        "categorie_code": "enfance_et_passé",
+        "categorie_nom": "Nostalgie & Enfance",
+        "vibe": "Souvenirs"
+    },
+    {
+        "id": 131,
+        "texte": "Sur 10, à combien tu évalues ta patience quand quelqu'un ne comprend pas un truc simple ?",
+        "categorie_code": "notes_sur_10_et_echelles",
+        "categorie_nom": "Notes sur 10",
+        "vibe": "Auto-évaluation"
+    },
+    {
+        "id": 132,
+        "texte": "Sur une échelle de 1 à 10, à quel point tu es rancunier quand on te fait une crasse ?",
+        "categorie_code": "notes_sur_10_et_echelles",
+        "categorie_nom": "Notes sur 10",
+        "vibe": "Auto-évaluation"
+    },
+    {
+        "id": 133,
+        "texte": "De 1 à 10, à quel point tu es influençable par les tendances ou les avis des autres ?",
+        "categorie_code": "notes_sur_10_et_echelles",
+        "categorie_nom": "Notes sur 10",
+        "vibe": "Auto-évaluation"
+    },
+    {
+        "id": 134,
+        "texte": "Sur 10, à combien tu estimes ta capacité à garder un secret très lourd ?",
+        "categorie_code": "notes_sur_10_et_echelles",
+        "categorie_nom": "Notes sur 10",
+        "vibe": "Auto-évaluation"
     }
 ]

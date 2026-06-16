@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png">
+    <title>Toutes les questions - Les questions de Lio</title>
+    <link rel="stylesheet" href="css/liste.css">
+    <script src="js/liste.js" defer></script>
+    <script src="components/nav.js" defer></script>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Toutes les questions</h1>
+        <div class="counter" id="questionCounter">Chargement...</div>
+    </div>
+
+    <input type="text" id="searchBox" class="search-box" placeholder="🔍 Rechercher une question..." oninput="filterQuestions()">
+
+    <div class="filters-scroll">
+        <button class="filter-chip active" onclick="filterCategory('all', this)">Tout</button>
+        <button class="filter-chip" onclick="filterCategory('chill_et_loisirs', this)">Chill</button>
+        <button class="filter-chip" onclick="filterCategory('ego_et_personnalite', this)">Ego</button>
+        <button class="filter-chip" onclick="filterCategory('profond_et_philosophique', this)">Profond</button>
+        <button class="filter-chip" onclick="filterCategory('romance_et_sexe', this)">Intime 🔥</button>
+        <button class="filter-chip" onclick="filterCategory('relations_et_groupe', this)">Relations</button>
+        <button class="filter-chip" onclick="filterCategory('enfance_et_passé', this)">Nostalgie</button>
+        <button class="filter-chip" onclick="filterCategory('notes_sur_10_et_echelles', this)">Notes /10</button>
+    </div>
+
+    <div class="questions-list" id="questionsList"></div>
+
+    <bottom-nav></bottom-nav>
+</body>
+</html>
