@@ -30,8 +30,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
+    /* Aligne vers le haut pour permettre un défilement propre sur petits écrans */
+    justify-content: flex-start; 
+    /* Padding haut pour simuler le centrage, padding bas pour la navbar */
+    padding: 6vh 20px 110px 20px; 
 }
 
 .container {
