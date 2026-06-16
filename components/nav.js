@@ -10,8 +10,12 @@ class Nav extends HTMLElement {
                 .bottom-nav {
                     position: fixed;
                     bottom: 0;
-                    left: 0;
+                    /* Centrage de la barre sur PC */
+                    left: 50%;
+                    transform: translateX(-50%);
                     width: 100%;
+                    /* On aligne la largeur max sur celle de tes containers */
+                    max-width: 600px; 
                     height: 65px;
                     background-color: var(--card-bg, #1e293b);
                     border-top: 1px solid rgba(255, 255, 255, 0.05);
@@ -34,30 +38,52 @@ class Nav extends HTMLElement {
                     font-weight: 600;
                     width: 50%;
                     height: 100%;
-                    transition: color 0.2s;
+                    transition: all 0.2s ease;
+                    gap: 4px; /* Gère l'espace de manière propre */
                 }
 
                 .nav-icon {
-                    margin-bottom: 4px;
                     display: inline-flex;
                     align-items: center;
                     justify-content: center;
                 }
                 
-                /* Remplissage automatique basé sur la couleur du texte parent */
                 .nav-icon svg {
                     width: 20px;
                     height: 20px;
                     fill: currentColor; 
+                    transition: transform 0.2s ease;
                 }
 
                 .nav-item:hover {
                     color: var(--text-main, #f8fafc);
                 }
+                
+                .nav-item:hover .nav-icon svg {
+                    transform: scale(1.1); /* Petit effet sympa au survol */
+                }
 
                 /* Classe active dynamique */
                 .nav-item.active {
                     color: var(--accent, #6366f1) !important;
+                }
+
+                /* --- AJUSTEMENTS POUR ÉCRANS PC --- */
+                @media (min-width: 768px) {
+                    .bottom-nav {
+                        /* Donne un effet flottant style dock/médium très moderne sur PC */
+                        bottom: 20px; 
+                        border: 1px solid rgba(255, 255, 255, 0.1);
+                        border-radius: 30px;
+                        width: 90%; 
+                    }
+                    
+                    .nav-item {
+                        /* Sur PC, on met l'icône à côté du texte au lieu d'au-dessus */
+                        flex-direction: row; 
+                        font-size: 0.9rem;
+                        gap: 10px; 
+                    }
                 }
             </style>
 
@@ -83,5 +109,4 @@ class Nav extends HTMLElement {
     }
 }
 
-// Enregistrement du composant auprès du navigateur
 customElements.define('bottom-nav', Nav);
