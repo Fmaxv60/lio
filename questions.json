@@ -719,5 +719,12 @@
         "categorie_code": "notes_sur_10_et_echelles",
         "categorie_nom": "Notes sur 10",
         "vibe": "Auto-évaluation"
+    },
+    {
+        "id": 104,
+        "texte": "Quel serait ton one wish willow",
+        "categorie_code": "profond_et_philosophique",
+        "categorie_nom": "Profond & Confidences",
+        "vibe": "Sérieux / Émotionnel"
     }
 ]
