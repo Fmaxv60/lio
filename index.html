@@ -414,7 +414,7 @@
         // Ta fonction Discord adaptée (Remplace bien l'URL par ton Webhook)
         function envoyerADiscord(texteQuestion, categorie) {
             // On appelle notre propre API Vercel à la place de Discord directement
-            fetch('/api/submit-question', {
+            fetch('/api/submit', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ texteQuestion, categorie })
