@@ -16,7 +16,6 @@ export default async function handler(request, response) {
     // 3. Préparation du message pour Discord
     const message = {
         embeds: [{
-            title: "💡 Nouvelle suggestion de question !",
             fields: [
                 { name: "Question", value: texteQuestion },
                 { name: "Catégorie suggérée", value: categorie }
