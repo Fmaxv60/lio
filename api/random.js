@@ -19,10 +19,7 @@ export default function handler(req, res) {
         const selectedQuestion = questions[randomIndex];
 
         // 4. Formater le texte pour Glance (avec un emoji de vibe optionnel si présent)
-        const vibePrefix = selectedQuestion.vibe ? `⚡ *${selectedQuestion.vibe}* \n\n` : '';
-        const badgeCategory = `[${selectedQuestion.categorie_nom}] `;
-        
-        const responseText = `${badgeCategory}\n${vibePrefix}${selectedQuestion.texte}`;
+        const responseText = `${selectedQuestion.texte}`;
 
         // 5. Renvoyer en texte brut avec encodage UTF-8 pour les accents
         res.setHeader('Content-Type', 'text/plain; charset=utf-8');
